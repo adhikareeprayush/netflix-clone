@@ -3,3 +3,94 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 20px 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo img {
+  width: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  background-color: #e50914;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 5px;
+
+  font-size: 1.2rem;
+  font-weight: medium;
+}
+
+#hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/bg-1.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.5);
+}
+
+.hero-content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: medium;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: light;
+  margin-bottom: 20px;
+}
+
+.get-started {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+section {
+  min-height: 300px;
+}
+
+hr {
+  width: 100%;
+  height: 10px;
+  background-color: gray;
+}
